@@ -808,6 +808,54 @@ body {
   background: rgba(255,255,255,0.35);
 }
 
+/* Mobile (≤576px) */
+@media (max-width: 576px) {
+  .product-card-full {
+    height: 250px; /* card height কমানো */
+    border-radius: 15px; /* radius সামান্য কমানো */
+  }
+
+  .product-overlay {
+    padding: 0.5rem; /* overlay padding কমানো */
+    gap: 0.3rem;
+  }
+
+  .product-overlay h4 {
+    font-size: 1rem; /* title ছোট করা */
+  }
+
+  .product-overlay .price {
+    font-size: 0.9rem; /* price text ছোট করা */
+    gap: 0.3rem;
+  }
+
+.overlay-buttons button {
+  font-size: 0.7rem;   /* text chhoto rakhba, kintu ekdom beshi chhoto korba na */
+  padding: 4px 10px;   /* button er vitorer space */
+  border-radius: 6px;
+  line-height: 1.2;    /* text height adjust */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.overlay-buttons button:hover {
+  transform: scale(1.1);
+  background: rgba(255,255,255,0.35);
+}
+
+
+  .hover-image {
+    /* যদি প্রয়োজন হয়, height বা scale adjust করতে পারো */
+  }
+}
+
+
+
+
+
+
 .add-cart-btn {
   color: black;                 /* Text color */
   background-color: #fff;       /* Background */
@@ -1217,9 +1265,13 @@ body {
   gap: 20px; /* spacing between cards */
 }
 
+
 .product-shop-card {
-  flex: 0 0 calc(33.333% - 20px); /* 3 cards per row on desktop */
+  width: 100%;
+  box-sizing: border-box; /* padding/include width ঠিক রাখে */
 }
+
+
 
 /* Tablet (2 per row) */
 @media (max-width: 992px) {

@@ -283,16 +283,20 @@ const ShopArea = ({
                     role="tabpanel"
                     aria-labelledby="pills-grid-tab"
                   >
-  <div className="row g-0">
-  {allProducts.map((item: any, i: any) => (
-    <div
-      key={i}
-      className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ml-20 product-shop-card"
-    >
-      <ProductItem product={item} setLoading={setLoading} />
-    </div>
-  ))}
+<div className="container-fluid">
+  <div className="row gx-3 gy-4 ">
+    {allProducts.map((item: any, i: any) => (
+      <div key={i} className="col-xl-4 col-lg-4 col-md-3 col-sm-6 col-6">
+        <div className="product-shop-card h-100">
+          <ProductItem product={item} setLoading={setLoading} />
+        </div>
+      </div>
+    ))}
+  </div>
+
+
 </div>
+
 
 
                   </div>

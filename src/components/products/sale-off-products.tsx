@@ -36,7 +36,7 @@ const SaleOffProducts = ({
         </div>
         {featuredProducts && (
           <div className="sale__area-slider ml-2">
-                      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+                      <div className="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-3 g-4">
 
               {featuredProducts?.map((product: any, i: any) => (
                 <div key={i + product?.id} className="col sale__item">

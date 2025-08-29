@@ -34,7 +34,7 @@ const ShopCategory = ({ spacing = "", categories = [] }: IProps) => {
        
           <div className="row g-4">
             {categories.map((item) => (
-              <div key={item.id} className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+              <div key={item.id} className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                 <Link
                   href={`/shop?category=${item.id}`}
                   onClick={() => setLoading(true)}

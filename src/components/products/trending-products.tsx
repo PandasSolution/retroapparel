@@ -48,7 +48,7 @@ function TrendingProducts({
           </div>
 
           {/* Product Grid */}
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+          <div className="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-3 g-4">
             {productList.map((item: any, index: number) => (
               <div key={index} className="col">
                 <ProductItem product={item} setLoading={setLoading} isSearchPopup={false} />
