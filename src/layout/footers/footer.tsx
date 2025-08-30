@@ -60,22 +60,16 @@ const Footer = ({ style_2 }: { style_2?: boolean }) => {
                       </div>
                       <div className="text">
                         <span>
-                          Outlet Address: Bailey Road 143/2, AQP Shopping Mall, 3rd
-                          Floor (Opposite Fakhruddin Biriyani) New Bailey Road, Dhaka
+                          Outlet Address: To Be Announced.
                         </span>
                       </div>
                     </li>
-                    <li>
+                    {/* <li>
                       <div className="icon">
                         <i className="fal fa-map-marker-alt"></i>
                       </div>
-                      <div className="text">
-                        <span>
-                          Outlet Address: PLAZA AR, 3rd Floor, Shop 303 Dhanmondi 28,
-                          Dhaka
-                        </span>
-                      </div>
-                    </li>
+                   
+                    </li> */}
                     <li>
                       <div className="icon">
                         <i className="fal fa-phone-alt"></i>
@@ -83,7 +77,7 @@ const Footer = ({ style_2 }: { style_2?: boolean }) => {
                       <div className="text">
                         <span>
                           WhatsApp Order:{" "}
-                          <a href="tel:+8801622-534977">+8801622-534977</a>
+                          <a href="tel:+8801861955603">+8801861955603</a>
                         </span>
                       </div>
                     </li>

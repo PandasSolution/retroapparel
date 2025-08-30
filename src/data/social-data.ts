@@ -6,7 +6,7 @@ export type ISocial = {
 
 const social_links: ISocial[] = [
   {
-    link: "https://www.facebook.com/Strikebdofficial?mibextid=wwXIfr&rdid=vmojHEaNZm2GzlBz&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15vGJ1u4T2%2F%3Fmibextid%3DwwXIfr#",
+    link: "",
     icon: "fab fa-facebook-f",
     name: "Facebook",
   },

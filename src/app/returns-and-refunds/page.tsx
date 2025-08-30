@@ -17,9 +17,17 @@ export default async function ReturnsAndRefundsPage() {
       {/* <Loading /> */}
       {/* header start */}
 
-      <Header />
+     <div className="header-section ">
 
+    {/* header start */}
+          <Header />
+          {/* header end */}
+        </div>
+      
       {/* header end */}
+
+      <br></br>
+      <br></br>
 
       <main>
         <Suspense fallback={<Loading />}>

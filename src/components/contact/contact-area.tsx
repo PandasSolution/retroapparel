@@ -6,14 +6,14 @@ const contactInfo = [
     id: 0,
     icon: "fal fa-map-marker-alt",
     title: "Outlet Address:",
-    subtitle: `Bailey Road 143/2, AQP Shopping Mall, 3rd Floor (Opposite Fakhruddin Biriyani) New Bailey Road, Dhaka`,
+    subtitle: `To Be Announced`,
   },
-  {
-    id: 1,
-    icon: "fal fa-map-marker-alt",
-    title: "Outlet Address:",
-    subtitle: `PLAZA AR, 3rd Floor, Shop 303 Dhanmondi 28, Dhaka`,
-  },
+  // {
+  //   id: 1,
+  //   icon: "fal fa-map-marker-alt",
+  //   title: "Outlet Address:",
+  //   subtitle: `PLAZA AR, 3rd Floor, Shop 303 Dhanmondi 28, Dhaka`,
+  // },
   // {
   //   icon: "fal fa-envelope-open-text",
   //   title: "Email:",
@@ -23,7 +23,7 @@ const contactInfo = [
     id: 2,
     icon: "fal fa-phone-alt",
     title: "WhatsApp Order:",
-    subtitle: "+8801622-534977",
+    subtitle: "+8801861955603",
   },
 ];
 
@@ -62,11 +62,11 @@ const ContactArea = () => {
                   nulla facilisi.
                 </p> */}
 
-                <div className="contact__social">
+                {/* <div className="contact__social">
                   <ul>
                     <SocialLinks />
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-xl-6 col-lg-6">

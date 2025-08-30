@@ -15,12 +15,16 @@ export default async function PrivayPolicyPage() {
   return (
     <Wrapper>
       {/* <Loading /> */}
-      {/* header start */}
+    <div className="header-section ">
 
-      <Header />
+    {/* header start */}
+          <Header />
+          {/* header end */}
+        </div>
 
-      {/* header end */}
-
+        <br></br>
+        <br></br>
+      
       <main>
         <Suspense fallback={<Loading />}>
           <section className="product__area pt-30 pb-100">
