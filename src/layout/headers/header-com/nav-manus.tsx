@@ -48,7 +48,15 @@ const NavManus = ({ setLoading }: any) => {
         },
       ];
 
-      setMenusData([...menuData, ...categoryMenu, ...brandMenu]);
+       const home =   {
+          link: `/contact`,
+          title: "Contact",
+          hasDropdown: false,
+          megamenu: false,
+         
+        }
+
+      setMenusData([...menuData, ...categoryMenu, ...brandMenu,home]);
     } catch (err) {
       console.error("NavManus fetch error:", err);
       const brandMenuFallback = [

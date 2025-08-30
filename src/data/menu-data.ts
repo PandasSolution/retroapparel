@@ -92,10 +92,7 @@ let menuData: IMenuType[] = [
   //     { link: "/404", title: "Error 404" },
   //   ],
   // },
-  {
-    link: "/contact",
-    title: "Contact",
-  },
+  
 ];
 
 export default menuData;
@@ -149,8 +146,5 @@ export const mobile_menus: IMobileMenu[] = [
   //     { link: "/blog-details", title: "Blog Details" },
   //   ],
   // },
-  {
-    title: "Contact",
-    link: "/contact",
-  },
+  
 ];
